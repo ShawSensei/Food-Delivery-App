@@ -1,8 +1,10 @@
+import 'dart:ffi';
+
 class Food {
   final String name;
   final String description;
   final String imagePath;
-  final String price;
+  final double price;
   final FoodCategory category;
   List<Addon> availableAddons;
 
